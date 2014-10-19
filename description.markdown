@@ -8,7 +8,7 @@ The content for this site is stored in a [git content repository][].
 
 This site is powered by [Wheat][http://github.com/creationix/wheat], a git based blogging engine written in [Node.JS][] by [Tim Caswell][], customized by [me][].
 
-[Discoverer]: http://www.allango.tk/
+[Allango]: http://www.allango.tk/
 [Tim Caswell]: http://creationix.com/
 [node.js]: http://nodejs.org/
 [Wheat]: http://github.com/creationix/wheat

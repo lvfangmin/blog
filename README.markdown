@@ -36,7 +36,7 @@ Every article is a markdown file with some meta-data at the top of the file.
 Every author has a markdown file located in `authors` folder. You should name this file by your name and surname `Name Surname.markdown`.
 
     Github:   your_github_account
-    Email:    your_email@yahoo-inc.com
+    Email:    your_email@example.com
     Homepage: http://yourhomepage.com
     Location: City, State, Country
 
