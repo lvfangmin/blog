@@ -6,7 +6,7 @@ Sharing knowledge can seem like a burden to some but on the contrary, it is a re
 
 The content for this site is stored in a [git content repository][].
 
-This site is powered by [Wheat][http://github.com/creationix/wheat], a git based blogging engine written in [Node.JS][] by [Tim Caswell][], customized by [me][].
+This site is powered by [Wheat][], a git based blogging engine written in [Node.JS][] by [Tim Caswell][], customized by [me][].
 
 [Allango]: http://www.allango.tk/
 [Tim Caswell]: http://creationix.com/
