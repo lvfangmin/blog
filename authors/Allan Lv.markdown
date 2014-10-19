@@ -1,6 +1,6 @@
 Github:   lvfangmin
 Email:    lvfangmin@gmail.com
-HomePage: http://www.allango.tk/
+HomePage: http://www.allangogo.tk/
 Location: Beijing, China
 
 I'm a engeneer @Yahoo!.

@@ -1,4 +1,4 @@
-# Allango
+# Allangogo
 
 This is a personal blog used to memo and share knowledges.
 
