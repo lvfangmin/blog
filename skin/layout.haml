@@ -1,0 +1,35 @@
+!!! 5
+%html(lang="en")
+  %head
+    %meta(charset="utf-8")
+    %title #{(title ? title + " - " : "")} Stay Foolish Stay Hungry - Discoverer
+    %meta(name="description" content="Discover the world.")
+    %meta(name="viewport" content="width=device-width")
+    %link(href="/style.css" rel="stylesheet")
+    %link(href="/print.css" rel="stylesheet" media="print")
+    %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml")
+    %link(href="/favicon.ico" rel="icon" type="image/x-icon")
+  %body
+    #container
+      #header
+        %a{href: "/"}
+          %img.logo{src: "/logo.png", alt: "Try to discover!"}
+          .title
+            Discoverer
+      = content
+      
+      #footer
+        %p &copy; 2013 Yahoo! Inc.
+        %p Content and articles are copyrighted to the individual authors. Design by&nbsp;
+          %a{href: "http://bengourley.co.uk"} Ben Gourley
+          , changed by&nbsp;
+          %a{href: "http://yo/blog"} Fangmin Lv.
+        %p Blog engine Wheat running on node #{process.version}, developed by Tim Caswell under the MIT license.
+    :script
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    :script
+      try {
+      var pageTracker = _gat._getTracker("UA-12824411-1");
+      pageTracker._trackPageview();
+      } catch(err) {}

@@ -1,0 +1,29 @@
+#main.index
+  :each article in articles.slice(0,15)
+    .article
+      .author
+        %img{src:gravitar(article.author.email, 30)}
+        By #{article.author.name}
+        .date{title: article.date}&= formatDate(article.date, "%Y.%m.%d")
+      %h3
+        %a{href: "/" + article.name}&= article.title
+      = intro(article.markdown)
+      %a.more{href: "/" + article.name} Read more...
+
+#sidebar
+  .aside
+    = markdownEncode(description)
+  .bubble
+    %h4
+      Articles
+    %ul
+      :each article in articles.slice(0,20)
+        %li
+          %a{href: "/" + article.name}&=article.title
+          &=" by " + article.author.name
+          :if article.node
+            %span.versiontag&= article.node
+  .bubble
+    %h4 Related Reading
+    %a{target:"books",href:"http://techbus.safaribooksonline.com/book/programming/java/9781933988948"}
+      %img{style:"height:188px;width:150px;border:0;",src:"http://techbus.safaribooksonline.com/static/201308-7361-techbus/images/9781933988948/9781933988948_s.jpg"}
