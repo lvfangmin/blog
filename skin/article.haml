@@ -9,8 +9,8 @@
     #disqus_thread.body
     :script
       var disqus_url = "http://www.allangogo.tk/#{article.name}";
-    %script(src="http://disqus.com/forums/discoverin/embed.js" type="text/javascript")
-    %a.view-thread(href="http://disqus.com/forums/discoverin/?url=ref")
+    %script(src="http://disqus.com/forums/allangogo/embed.js" type="text/javascript")
+    %a.view-thread(href="http://disqus.com/forums/allangogo/?url=ref")
       View the discussion thread.
     %a.dsq-brlink(href="http://disqus.com")
       blog comments powered by
@@ -25,7 +25,7 @@
             query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&amp;';
           }
         }
-        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/discoverin/get_num_replies.js' + query + '"></' + 'script>');
+        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/allangogo/get_num_replies.js' + query + '"></' + 'script>');
       })();
 
 
