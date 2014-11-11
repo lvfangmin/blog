@@ -25,14 +25,14 @@ Below is the hash function I’m using in my Merkle Tree implementation. I’m u
 
 
     trait Hash {
-      def hash(byteSequence: Seq[Byte]): Vector[Byte];
+      def hash(byteSequence: Seq[Byte]): Vector[Byte]
     }
 
     object SHA1Hash extends Hash {
-      val SHA1 = MessageDigest.getInstance("SHA-1");
+      val SHA1 = MessageDigest.getInstance("SHA-1")
 
       override def hash(byteSequence: Seq[Byte]): Vector[Byte] = {
-        SHA1.digest(byteSequence.toArray).toVector;
+        SHA1.digest(byteSequence.toArray).toVector
       }
     }
 
