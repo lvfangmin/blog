@@ -1,4 +1,4 @@
-Title: Efficiently Verify Data Changes with Merkle Hash Tree
+Title: Efficiently Verify Distributed Replica Consistency with Merkle Hash Tree
 Author: Allan Lv
 Date: Tue Nov 11 00:28:06 CST 2014
 Categories: merkle, hash, tree, cassandra, dynamo
