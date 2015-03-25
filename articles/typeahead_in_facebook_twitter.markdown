@@ -1,5 +1,5 @@
 Title: Typeahead Query Feature of Facebook and Twitter
-Author: Allan Lv
+Author: Allen Lv
 Date: Sun Oct 26 00:29:31 CST 2014
 Categories: typeahead, autocomplete, trie, lru cache, system desing
 

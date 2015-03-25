@@ -1,4 +1,4 @@
-# Allangogo
+# Allengogo
 
 This is a personal blog used to memo and share knowledges.
 
@@ -16,7 +16,7 @@ If this is your first article, then please add an entry for yourself in the auth
 Every article is a markdown file with some meta-data at the top of the file.
 
     Title: Control Flow in Node
-    Author: Allan Lv
+    Author: Allen Lv
     Date: Thu Feb 04 2013 02:24:35 GMT-0600 (CST)
 
     I had so much fun writing the last article on control flow, that I decided to...

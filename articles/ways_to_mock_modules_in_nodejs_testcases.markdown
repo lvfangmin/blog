@@ -1,5 +1,5 @@
 Title: Ways to Inject Mock Modules into Nodejs Testcases
-Author: Allan Lv
+Author: Allen Lv
 Date: Mon Oct 20 20:22:45 CST 2014
 Categories: nodejs, mock, testcase
 

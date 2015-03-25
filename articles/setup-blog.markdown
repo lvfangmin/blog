@@ -1,5 +1,5 @@
 Title: Setup A Nodejs Based Blog with Wheat
-Author: Allan Lv
+Author: Allen Lv
 Date: Sun Oct 19 17:37:29 CST 2014
 Categories: nodejs, git, blog
 
@@ -68,7 +68,7 @@ Please help to contribute and share your great articles.  If this is your first 
 Every article is a markdown file with some meta-data at the top of the file.
 
     Title: Setup blog
-    Author: Allan Lv
+    Author: Allen Lv
     Date: Thu Aug 18 2013 02:24:35 GMT-0600 (CST)
 
     Content goes here.

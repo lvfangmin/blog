@@ -1,5 +1,5 @@
 Title: Efficiently Verify Distributed Replica Consistency with Merkle Hash Tree
-Author: Allan Lv
+Author: Allen Lv
 Date: Tue Nov 11 00:28:06 CST 2014
 Categories: merkle, hash, tree, cassandra, dynamo
 
